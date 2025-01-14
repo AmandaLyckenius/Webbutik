@@ -1,0 +1,147 @@
+body,
+html,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(233, 238, 234);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.logo-picture {
+    height: 100px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.header-logo-co-name{
+    display: flex;
+    align-items: flex-end;
+   
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(108, 107, 107)
+}
+
+body {
+    background-color: #f5f6f8
+}
+
+.visually-hidden {      /*Döljer informationstexten från figcapture för seende användare*/
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: none;
+    clip-path: inset(50%);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.front-page-main-picture {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.example-products {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.front-page-example-flowers {
+    width: 200px;
+    height: auto;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.align-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.product-picture {
+    width: 30vw;
+    height: auto;
+    margin: 10px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.product-name,
+p {
+    margin: 0;
+}
+
+.product-text {
+    font-size: 2rem;
+
+}
+
+.price {
+    padding-bottom: 30px;
+}
+
+.logo {
+    width: 40vw;
+    height: auto;
+    padding: 20px;
+    
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label,
+.text-integretypolicy {
+    padding: 10px;
+}
+
+.footer-text {
+    padding: 40px;
+    background-color: rgb(233, 238, 234);
+}
+
+footer {
+    margin-top: 20px;
+}
+
+.send-button{
+    font-family: serif;
+    
+}
+
